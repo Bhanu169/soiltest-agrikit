@@ -609,7 +609,7 @@ export default function SoilTesting() {
                 <h1 className="font-display text-2xl font-bold text-primary-foreground">
                   Soil Testing Form
                 </h1>
-                <p className="text-sm text-primary-foreground/80">
+               <p className="text-sm text-gray-100">
                   Fill in the details below to request your analysis
                 </p>
               </div>

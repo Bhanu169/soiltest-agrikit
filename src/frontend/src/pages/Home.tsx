@@ -7,8 +7,7 @@ import { Link } from "@tanstack/react-router";
 const IMAGES = {
   heroFarm:
     "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1600&auto=format&fit=crop",
-  soilTestCard:
-    "https://images.unsplash.com/photo-1589928954104-44193e5c1f83?w=800&auto=format&fit=crop",
+  soilTestCard: "/assets/images/soilTesting.jpeg",
   agriKitCard:
     "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&auto=format&fit=crop",
   farmBanner:
@@ -17,7 +16,7 @@ const IMAGES = {
     "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&auto=format&fit=crop",
   // Soil health section
   degradedSoil:
-    "https://images.unsplash.com/photo-1504707748692-419802cf939d?w=800&auto=format&fit=crop",
+    "assets/images/handSoil.jpeg",
   healthyCropland:
     "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&auto=format&fit=crop",
   farmerSoil:
@@ -62,8 +61,7 @@ const SOIL_HEALTH_CARDS = [
     caption:
       "Nutrient-poor, compacted soil leads to poor crop yields and wasted resources.",
     tag: "The Problem",
-    tagColor: "bg-destructive/10 text-destructive border-destructive/20",
-  },
+tagColor: "bg-white/10 text-white border border-white/20",  },
   {
     img: IMAGES.healthyCropland,
     alt: "Lush green cropland with healthy thriving plants",
@@ -71,8 +69,7 @@ const SOIL_HEALTH_CARDS = [
     caption:
       "Balanced NPK levels and organic matter create conditions for vigorous plant growth.",
     tag: "The Goal",
-    tagColor: "bg-primary/10 text-primary border-primary/20",
-  },
+tagColor: "bg-white text-green-700 border border-white",  },
   {
     img: IMAGES.farmerSoil,
     alt: "A farmer carefully examining soil texture and quality in the field",
@@ -80,8 +77,7 @@ const SOIL_HEALTH_CARDS = [
     caption:
       "Data-driven decisions based on soil analysis lead to smarter, cost-effective farming.",
     tag: "The Solution",
-    tagColor: "bg-accent/15 text-accent border-accent/20",
-  },
+tagColor: "bg-green-100 text-green-700 border border-green-200",  },
 ];
 
 // ── Leaf decoration SVG ───────────────────────────────────────────────────────
