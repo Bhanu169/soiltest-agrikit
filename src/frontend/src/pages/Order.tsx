@@ -39,7 +39,7 @@ const TRUST_IMAGES = [
     label: "Field Ready",
   },
   {
-    src: "https://images.unsplash.com/photo-1581093803456-15d8db88c99d?w=800&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1628863353691-0071c8c1874c?w=800&auto=format&fit=crop",
     alt: "Soil sample being carefully analyzed in a lab environment",
     label: "Lab Analysis",
   },

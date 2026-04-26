@@ -1,5 +1,5 @@
-import { j as jsxRuntimeExports, L as Link } from "./index-D4RKLqip.js";
-import { S as Slot, c as cn, a as cva, B as Button, C as Card, b as CardContent } from "./card-C6AEzvBc.js";
+import { j as jsxRuntimeExports, L as Link } from "./index-CPaoRdoP.js";
+import { S as Slot, c as cn, a as cva, B as Button, C as Card, b as CardContent } from "./card-BJseFv3P.js";
 const badgeVariants = cva(
   "inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
   {
@@ -34,14 +34,14 @@ function Badge({
 }
 const IMAGES = {
   heroFarm: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1600&auto=format&fit=crop",
-  soilTestCard: "https://images.unsplash.com/photo-1544207240-8c6a9f1bf6c0?w=800&auto=format&fit=crop",
-  agriKitCard: "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&auto=format&fit=crop",
+  soilTestCard: "https://images.unsplash.com/photo-1589928954104-44193e5c1f83?w=800&auto=format&fit=crop",
+  agriKitCard: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&auto=format&fit=crop",
   farmBanner: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&auto=format&fit=crop",
   greenField: "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&auto=format&fit=crop",
   // Soil health section
-  degradedSoil: "https://images.unsplash.com/photo-1547414368-ac947d00b91d?w=800&auto=format&fit=crop",
+  degradedSoil: "https://images.unsplash.com/photo-1504707748692-419802cf939d?w=800&auto=format&fit=crop",
   healthyCropland: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&auto=format&fit=crop",
-  farmerSoil: "https://images.unsplash.com/photo-1601472544218-f0e6e81eb9d2?w=800&auto=format&fit=crop",
+  farmerSoil: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&auto=format&fit=crop",
   // Farm scene strip
   plowing: "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?w=800&auto=format&fit=crop",
   irrigation: "https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=800&auto=format&fit=crop",

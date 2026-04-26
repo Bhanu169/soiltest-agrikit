@@ -8,20 +8,20 @@ const IMAGES = {
   heroFarm:
     "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1600&auto=format&fit=crop",
   soilTestCard:
-    "https://images.unsplash.com/photo-1544207240-8c6a9f1bf6c0?w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1589928954104-44193e5c1f83?w=800&auto=format&fit=crop",
   agriKitCard:
-    "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&auto=format&fit=crop",
   farmBanner:
     "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&auto=format&fit=crop",
   greenField:
     "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&auto=format&fit=crop",
   // Soil health section
   degradedSoil:
-    "https://images.unsplash.com/photo-1547414368-ac947d00b91d?w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1504707748692-419802cf939d?w=800&auto=format&fit=crop",
   healthyCropland:
     "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&auto=format&fit=crop",
   farmerSoil:
-    "https://images.unsplash.com/photo-1601472544218-f0e6e81eb9d2?w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&auto=format&fit=crop",
   // Farm scene strip
   plowing:
     "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?w=800&auto=format&fit=crop",

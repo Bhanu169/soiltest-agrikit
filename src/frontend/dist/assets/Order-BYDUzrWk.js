@@ -1,6 +1,6 @@
-import { c as createLucideIcon, u as useNavigate, a as useFormStore, r as reactExports, j as jsxRuntimeExports, S as Sprout, M as MapPin } from "./index-D4RKLqip.js";
-import { C as Card, d as CardHeader, e as CardTitle, b as CardContent, B as Button } from "./card-C6AEzvBc.js";
-import { L as Leaf, U as User, a as Label, I as Input, T as Textarea, C as CreditCard, S as Select, b as SelectTrigger, c as SelectValue, d as SelectContent, e as SelectItem, f as CircleCheck } from "./textarea-BCx6lSEX.js";
+import { c as createLucideIcon, u as useNavigate, a as useFormStore, r as reactExports, j as jsxRuntimeExports, S as Sprout, M as MapPin } from "./index-CPaoRdoP.js";
+import { C as Card, d as CardHeader, e as CardTitle, b as CardContent, B as Button } from "./card-BJseFv3P.js";
+import { L as Leaf, U as User, a as Label, I as Input, T as Textarea, C as CreditCard, S as Select, b as SelectTrigger, c as SelectValue, d as SelectContent, e as SelectItem, f as CircleCheck } from "./textarea-B7F69UTA.js";
 import { P as PAYMENT_MODE_LABELS } from "./index-DtrMP1dN.js";
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -67,7 +67,7 @@ const TRUST_IMAGES = [
     label: "Field Ready"
   },
   {
-    src: "https://images.unsplash.com/photo-1581093803456-15d8db88c99d?w=800&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1628863353691-0071c8c1874c?w=800&auto=format&fit=crop",
     alt: "Soil sample being carefully analyzed in a lab environment",
     label: "Lab Analysis"
   },
