@@ -1,0 +1,34 @@
+type Timestamp = int;
+type OrderInput = 
+ record {
+   agriKitComments: opt text;
+   agriKitFertilizer: opt text;
+   agriKitOrganic: bool;
+   agriKitSeeds: opt text;
+   deliveryAddress: opt text;
+   paymentMode: text;
+   queryType: text;
+   senderAddress: text;
+   senderName: text;
+   senderPlace: text;
+ };
+type Order = 
+ record {
+   agriKitComments: opt text;
+   agriKitFertilizer: opt text;
+   agriKitOrganic: bool;
+   agriKitSeeds: opt text;
+   deliveryAddress: opt text;
+   paymentMode: text;
+   queryType: text;
+   refId: text;
+   senderAddress: text;
+   senderName: text;
+   senderPlace: text;
+   timestamp: Timestamp;
+ };
+service : {
+  getOrder: (refId: text) -> (opt Order) query;
+  getOrders: () -> (vec Order) query;
+  submitOrder: (input: OrderInput) -> (text);
+}

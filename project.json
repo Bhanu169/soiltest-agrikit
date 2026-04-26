@@ -1,0 +1,21 @@
+{
+  "overview": "A 4-page agriculture service website for Soil Testing and AgriKit with a nature-inspired green design, dynamic conditional forms, and a smooth order flow from service selection through checkout to confirmation.",
+  "features": [
+    "Home page with hero section and service options",
+    "Dynamic soil testing form with conditional AgriKit logic",
+    "Order page with form validation and service summary",
+    "Thank You page with reference ID",
+    "Nature-inspired green design with mobile responsiveness"
+  ],
+  "category": "agriculture-services",
+  "tags": [
+    "agriculture",
+    "soil-testing",
+    "agrikit",
+    "forms",
+    "nature",
+    "green-design",
+    "responsive"
+  ],
+  "last_updated": "2026-04-22T15:36:30.395Z"
+}

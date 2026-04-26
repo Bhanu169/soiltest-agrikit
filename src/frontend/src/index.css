@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Lora", Georgia, serif;
+    --font-body: "DM Sans", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+    --radius: 0.75rem;
+
+    /* Warm cream background */
+    --background: 0.96 0.015 75;
+    --foreground: 0.18 0.04 55;
+    --card: 0.985 0.008 70;
+    --card-foreground: 0.18 0.04 55;
+    --popover: 0.985 0.008 70;
+    --popover-foreground: 0.18 0.04 55;
+
+    /* Botanical green primary */
+    --primary: 0.46 0.13 158;
+    --primary-foreground: 0.97 0.01 155;
+
+    --secondary: 0.87 0.025 78;
+    --secondary-foreground: 0.28 0.04 55;
+    --muted: 0.91 0.018 75;
+    --muted-foreground: 0.52 0.025 60;
+
+    /* Terracotta accent */
+    --accent: 0.56 0.14 42;
+    --accent-foreground: 0.97 0.01 40;
+
+    --destructive: 0.52 0.22 25;
+    --destructive-foreground: 0.97 0 0;
+
+    --border: 0.87 0.022 72;
+    --input: 0.87 0.022 72;
+    --ring: 0.46 0.13 158;
+
+    --chart-1: 0.52 0.18 150;
+    --chart-2: 0.46 0.13 158;
+    --chart-3: 0.56 0.14 42;
+    --chart-4: 0.62 0.16 155;
+    --chart-5: 0.44 0.12 30;
+
+    --sidebar: 0.96 0.015 75;
+    --sidebar-foreground: 0.18 0.04 55;
+    --sidebar-primary: 0.46 0.13 158;
+    --sidebar-primary-foreground: 0.97 0.01 155;
+    --sidebar-accent: 0.91 0.018 75;
+    --sidebar-accent-foreground: 0.28 0.04 55;
+    --sidebar-border: 0.87 0.022 72;
+    --sidebar-ring: 0.46 0.13 158;
+  }
+
+  .dark {
+    --background: 0.14 0.022 158;
+    --foreground: 0.92 0.012 150;
+    --card: 0.17 0.024 158;
+    --card-foreground: 0.92 0.012 150;
+    --popover: 0.2 0.026 158;
+    --popover-foreground: 0.92 0.012 150;
+
+    --primary: 0.64 0.16 155;
+    --primary-foreground: 0.12 0.02 155;
+
+    --secondary: 0.22 0.026 158;
+    --secondary-foreground: 0.82 0.012 150;
+    --muted: 0.22 0.026 158;
+    --muted-foreground: 0.54 0.016 155;
+
+    --accent: 0.68 0.13 88;
+    --accent-foreground: 0.14 0.022 88;
+
+    --destructive: 0.52 0.22 25;
+    --destructive-foreground: 0.92 0.012 25;
+
+    --border: 0.27 0.024 158;
+    --input: 0.27 0.024 158;
+    --ring: 0.64 0.16 155;
+
+    --chart-1: 0.58 0.16 150;
+    --chart-2: 0.64 0.16 155;
+    --chart-3: 0.68 0.13 88;
+    --chart-4: 0.52 0.14 155;
+    --chart-5: 0.48 0.14 40;
+
+    --sidebar: 0.17 0.024 158;
+    --sidebar-foreground: 0.92 0.012 150;
+    --sidebar-primary: 0.64 0.16 155;
+    --sidebar-primary-foreground: 0.92 0.012 155;
+    --sidebar-accent: 0.22 0.026 158;
+    --sidebar-accent-foreground: 0.82 0.012 150;
+    --sidebar-border: 0.27 0.024 158;
+    --sidebar-ring: 0.64 0.16 155;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .shadow-subtle {
+    box-shadow: 0 2px 8px oklch(0.3 0.04 155 / 0.08);
+  }
+
+  .shadow-elevated {
+    box-shadow: 0 4px 20px oklch(0.3 0.04 155 / 0.12);
+  }
+
+  .shadow-card {
+    box-shadow: 0 1px 4px oklch(0.3 0.04 155 / 0.06), 0 4px 16px
+      oklch(0.3 0.04 155 / 0.08);
+  }
+
+  .bg-pattern-grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  }
+
+  .section-divider {
+    border-top: 1px solid oklch(var(--border));
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-input bg-card px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-1 transition-smooth;
+  }
+
+  /* Entrance animations */
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes slide-right {
+    from {
+      opacity: 0;
+      transform: translateX(-16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes slide-up-fade {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fade-up 0.5s ease-out both;
+  }
+  .animate-fade-in {
+    animation: fade-in 0.4s ease-out both;
+  }
+  .animate-slide-right {
+    animation: slide-right 0.4s ease-out both;
+  }
+  .animate-scale-in {
+    animation: scale-in 0.4s ease-out both;
+  }
+  .animate-slide-up-fade {
+    animation: slide-up-fade 0.5s ease-out both;
+  }
+
+  .delay-100 {
+    animation-delay: 0.1s;
+  }
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  .delay-300 {
+    animation-delay: 0.3s;
+  }
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+
+  /* Image hover scale utility */
+  .hover\:scale-108:hover {
+    transform: scale(1.08);
+  }
+}
